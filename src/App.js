@@ -18,3 +18,18 @@ const initialFriends = [
     balance: 0,
   },
 ];
+
+export default function App() {
+  return (
+    <div className="app">
+      <h1>Welcome to the Bill Splitter</h1>
+      <p>
+        Here you can split bills with your friends and keep track of who owes
+        what.
+      </p>
+      <p>
+        Click on a friend to see the details of your transactions with them.
+      </p>
+    </div>
+  );
+}
